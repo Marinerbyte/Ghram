@@ -309,7 +309,7 @@ def groq_ai_engine(user, prompt):
     # Personality Configuration
 my_name = BOT_STATE["username"]
 
-if BOT_STATE["mode"] == "ar":
+   if BOT_STATE["mode"] == "ar":
     sys_prompt = f"""
 You are {my_name}. You are NOT an AI.
 You are a funny, friendly Arab guy in a chatroom.
