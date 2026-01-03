@@ -333,7 +333,7 @@ def groq_ai_engine(user, prompt):
     }
     
     payload = {
-        "model": "llama3-8b-8192", # Fast and Free on Groq
+        "model": "llama-3.3-70b-versatile", # Fast and Free on Groq
         "messages": [
             {"role": "system", "content": sys_prompt},
             *AI_CONTEXT
