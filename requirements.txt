@@ -1,9 +1,8 @@
-flask
+Flask
 requests
-pillow
-psycopg2-binary
+Pillow
 websocket-client
-gunicorn
+psycopg2-binary
 arabic-reshaper
 python-bidi
-beautifulsoup4
+gunicorn
